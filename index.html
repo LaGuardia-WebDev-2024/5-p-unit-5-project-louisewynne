@@ -1,8 +1,8 @@
 <!-- Unit 5 Project
 Requirements
 [ yes ] <div> and <span>
-[  ] border:, margin:, and padding: 
-[  ] Three Images
+[ yes ] border:, margin:, and padding: 
+[ yes ] Three Images
 
 Select TWO Additional Features to Add  
 [ no ] Feature 1 - Flexbox
@@ -20,6 +20,9 @@ Select TWO Additional Features to Add
 <head>
   <title>Unit 5 Project</title>
   <meta charset="utf-8">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gamja+Flower&family=Kranky&family=Yellowtail&display=swap" rel="stylesheet">
   <style>
 
     body {
@@ -30,13 +33,14 @@ Select TWO Additional Features to Add
     }
 
     .invitation {
-      background-color: rgba(122, 207, 158, 0.473);
+      background-image: linear-gradient(rgba(62, 219, 127, 0.473), rgba(255, 255, 255, 0.473));
       text-align: center;
       height: 100%;
-      margin-left: 20%;
-      margin-right: 20%;
-      height: 100vh;
+      margin-left: 30%;
+      margin-right: 30%;
+      height: cover;
       border: 1px solid rgba(122, 207, 157, 0.774);
+      position: fixed;
     }
 
     .container1 {
@@ -48,6 +52,32 @@ Select TWO Additional Features to Add
       color: rgb(189, 0, 0);
     }
 
+    h1 {
+      font-family: "Kranky", serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 60px;
+      color: rgb(255, 0, 51);
+    }
+
+    h3 {
+      font-family: "Yellowtail", cursive;
+      font-weight: 400;
+      font-style: normal;
+      color: rgb(102, 0, 0);
+    }
+
+    p, li {
+      font-family: "Gamja Flower", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 23px;
+      color: rgb(102, 0, 0);
+    }
+    
+    img {
+      padding: 10px;
+    }
 
   </style>
 </head>
@@ -58,7 +88,7 @@ Select TWO Additional Features to Add
 
   <div class="invitation">
 
-    <img src="https://freepngimg.com/save/26418-christmas-dividers-transparent/3300x721" width="100%">
+    <img src="https://freepngimg.com/thumb/christmas/26418-8-christmas-dividers-transparent.png" width="100%">
     
 
     <h3>Come to my...</to></h3>
@@ -76,17 +106,18 @@ Select TWO Additional Features to Add
 
    <div class="list">
    <ul>
-    <li>Some kind of bread</li>
+    <li>Cinnamon rolls</li>
     <li>Gingerbread cookies to decorate</li>
     <li>Apple Crumb Pie</li>
-    <li>something else</li>
    </ul>
-   <p>Recomendations welcome!</p>
+   <p>Suggests welcome!</p>
    </div>
 
-   <img src="https://www.momlovesbaking.com/wp-content/uploads/2020/12/Soft-Chewy-Gingerbread-Men-Cookies-SQ-500x375.jpg" width="200px">
+   <img src="https://static.vecteezy.com/system/resources/previews/052/243/779/non_2x/christmas-gingerbread-man-isolated-on-transparent-background-png.png" width="100px">
 
-   <img src="https://recipe30.com/wp-content/uploads/2020/11/Apple-pie.jpg" width="200px">
+   <img src="https://static.vecteezy.com/system/resources/previews/063/414/223/non_2x/freshly-baked-apple-pie-at-transparent-background-png.png" width="100px">
+
+   <img src="https://png.pngtree.com/png-vector/20231106/ourmid/pngtree-cinnamon-roll-png-image_10384947.png" width="100px">
 
 
   </div>
