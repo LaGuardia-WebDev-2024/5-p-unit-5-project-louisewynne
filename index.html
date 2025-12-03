@@ -8,7 +8,7 @@ Select TWO Additional Features to Add
 [ no ] Feature 1 - Flexbox
 [ no ] Feature 2 - Flip Card
 [ no ] Feature 3 - Animation
-[ no ] Feature 4 - Linear Gradient
+[ yes ] Feature 4 - Linear Gradient
 [ no ] Feature 5 - Use a .Gif
 [ no ] Feature 6 - Unique Border Styles
 -->
@@ -36,11 +36,13 @@ Select TWO Additional Features to Add
       background-image: linear-gradient(rgba(62, 219, 127, 0.473), rgba(255, 255, 255, 0.473));
       text-align: center;
       height: 100%;
-      margin-left: 30%;
-      margin-right: 30%;
-      height: cover;
+      margin-left: 25%;
+      margin-right: 25%;
+      height: 100vh;
       border: 1px solid rgba(122, 207, 157, 0.774);
-      position: fixed;
+      position: absolute;
+      top: 0;
+      bottom: 0;
     }
 
     .container1 {
@@ -58,6 +60,7 @@ Select TWO Additional Features to Add
       font-style: normal;
       font-size: 60px;
       color: rgb(255, 0, 51);
+      margin-top: 5px;
     }
 
     h3 {
@@ -65,26 +68,34 @@ Select TWO Additional Features to Add
       font-weight: 400;
       font-style: normal;
       color: rgb(102, 0, 0);
+      margin-bottom: 5px;
+      margin-top: 5px;
     }
 
-    p, li {
+    p {
       font-family: "Gamja Flower", sans-serif;
       font-weight: 400;
       font-style: normal;
-      font-size: 23px;
       color: rgb(102, 0, 0);
+      margin-top: 5px;
+      margin-bottom: 5px;
     }
     
-    img {
+    .images {
       padding: 10px;
+    }
+
+    .goods {
+      font-size: 18px;
+    }
+
+    .words {
+      font-size: 25px;
     }
 
   </style>
 </head>
 <body>
-
-  
-  
 
   <div class="invitation">
 
@@ -93,31 +104,33 @@ Select TWO Additional Features to Add
 
     <h3>Come to my...</to></h3>
     <h1> Holiday Baking Party </h1>
-
+    <div class="words">
    <P>
     <span class=container1>Location:</span> <span class=container2>my house</span>
     <br>
     <span class=container1>Time:</span> <span class=container2>12pm</span>
     <br>
+    </P>
     <br>
+     <p> 
     Things we can bake:
     <br>
-   </P>
-
-   <div class="list">
-   <ul>
-    <li>Cinnamon rolls</li>
-    <li>Gingerbread cookies to decorate</li>
-    <li>Apple Crumb Pie</li>
-   </ul>
-   <p>Suggests welcome!</p>
+    </p>
+    </div>
+  <div class="goods">
+   <p>
+    Cinnamon rolls<br>
+    Gingerbread cookies to decorate <br>
+    Apple Crumb Pie<br>
+   Suggestions welcome!</p>
    </div>
+   
 
-   <img src="https://static.vecteezy.com/system/resources/previews/052/243/779/non_2x/christmas-gingerbread-man-isolated-on-transparent-background-png.png" width="100px">
+   <img class="images" src="https://static.vecteezy.com/system/resources/previews/052/243/779/non_2x/christmas-gingerbread-man-isolated-on-transparent-background-png.png" width="100px">
 
-   <img src="https://static.vecteezy.com/system/resources/previews/063/414/223/non_2x/freshly-baked-apple-pie-at-transparent-background-png.png" width="100px">
+   <img class="images" src="https://static.vecteezy.com/system/resources/previews/063/414/223/non_2x/freshly-baked-apple-pie-at-transparent-background-png.png" width="100px">
 
-   <img src="https://png.pngtree.com/png-vector/20231106/ourmid/pngtree-cinnamon-roll-png-image_10384947.png" width="100px">
+   <img class="images" src="https://png.pngtree.com/png-vector/20231106/ourmid/pngtree-cinnamon-roll-png-image_10384947.png" width="100px">
 
 
   </div>
