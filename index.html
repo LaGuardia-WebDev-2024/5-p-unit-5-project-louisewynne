@@ -1,15 +1,15 @@
 <!-- Unit 5 Project
 Requirements
-[  ] <div> and <span>
-[  ] border:, margin:, and padding: 
-[  ] Three Images
+[ yes ] <div> and <span>
+[ yes ] border:, margin:, and padding: 
+[ yes ] Three Images
 
 Select TWO Additional Features to Add  
-[ no ] Feature 1 - Flexbox
+[ yes ] Feature 1 - Flexbox
 [ no ] Feature 2 - Flip Card
 [ no ] Feature 3 - Animation
-[ no ] Feature 4 - Linear Gradient
-[ no ] Feature 5 - Use a .Gif
+[ yes ] Feature 4 - Linear Gradient
+[ yes ] Feature 5 - Use a .Gif
 [ no ] Feature 6 - Unique Border Styles
 -->
 
@@ -20,12 +20,138 @@ Select TWO Additional Features to Add
 <head>
   <title>Unit 5 Project</title>
   <meta charset="utf-8">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gamja+Flower&family=Kranky&family=Yellowtail&display=swap" rel="stylesheet">
   <style>
+
+    body {
+      background-image: url("https://marketplace.canva.com/EAEMngvLCL0/1/0/1600w/canva-green-foliage-holiday-virtual-background-THrnbLTv_Lk.jpg"); 
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+    }
+
+    .invitation {
+      background-image: linear-gradient(rgba(62, 219, 127, 0.473), rgba(255, 255, 255, 0.473));
+      text-align: center;
+      height: 100%;
+      margin-left: 25%;
+      margin-right: 25%;
+      height: 100vh;
+      border: 1px solid rgba(122, 207, 157, 0.774);
+      position: absolute;
+      top: 0;
+      bottom: 0;
+    }
+
+    .container1 {
+      font-weight: bold;
+      color: rgb(0, 70, 21);
+    }
+
+    .container2 {
+      color: rgb(189, 0, 0);
+    }
+
+    h1 {
+      font-family: "Kranky", serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 60px;
+      color: rgb(255, 0, 51);
+      margin-top: 5px;
+    }
+
+    h3 {
+      font-family: "Yellowtail", cursive;
+      font-weight: 400;
+      font-style: normal;
+      color: rgb(102, 0, 0);
+      margin-bottom: 5px;
+      margin-top: 5px;
+    }
+
+    p {
+      font-family: "Gamja Flower", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      color: rgb(102, 0, 0);
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
+    
+    .images {
+      padding: 10px;
+    }
+
+    .goods {
+      font-size: 18px;
+    }
+
+    .words {
+      font-size: 25px;
+    }
+
+    .goods {
+      display: flex;
+    }
+
+    .gif {
+      margin: auto;
+      
+    }
+
+    .good-names {
+      margin: auto;
+    }
 
   </style>
 </head>
 <body>
 
+  <div class="invitation">
+
+    <img src="https://freepngimg.com/thumb/christmas/26418-8-christmas-dividers-transparent.png" width="100%">
+    
+
+    <h3>Come to my...</to></h3>
+    <h1> Holiday Baking Party </h1>
+    <div class="words">
+   <P>
+    <span class=container1>Location:</span> <span class=container2>my house</span>
+    <br>
+    <span class=container1>Time:</span> <span class=container2>12pm</span>
+    <br>
+    </P>
+    <br>
+     <p> 
+    Things we can bake:
+    <br>
+    </p>
+    </div>
+  <div class="goods">
+    <div class="good-names">
+   <p>
+    Cinnamon rolls<br>
+    Gingerbread cookies to decorate <br>
+    Apple Crumb Pie<br>
+   Suggestions welcome!</p>
+   </div>
+   <div class="gif">
+   <img src="https://i.pinimg.com/originals/05/ef/aa/05efaa6597d845f70a4de425ff586e07.gif" width="150px">
+   </div>
+   </div>
+   
+
+   <img class="images" src="https://static.vecteezy.com/system/resources/previews/052/243/779/non_2x/christmas-gingerbread-man-isolated-on-transparent-background-png.png" width="70px">
+
+   <img class="images" src="https://static.vecteezy.com/system/resources/previews/063/414/223/non_2x/freshly-baked-apple-pie-at-transparent-background-png.png" width="70px">
+
+   <img class="images" src="https://png.pngtree.com/png-vector/20231106/ourmid/pngtree-cinnamon-roll-png-image_10384947.png" width="70px">
+
+
+  </div>
  
 
 </body>
